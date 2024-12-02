@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Project</title>
+</head>
+<body>
+
+<!-- SIDE AND NAV BAR -->
+  <section id="side_bar" class="column1">
+
+    <div id="side_bar_top">
+
+      <div id="profile_pic_container">
+        <img src="assets/user-profile-icon-free-vector.jpg" alt="profile picture" width="40px" height="40px" id="profile_pic">
+      </div>
+
+      <div id="greeting">
+        <p id="welcome">Welcome, Brock!</p>
+      </div>
+
+    </div>
+    
+    <div id="button_container">
+    <button id="compose_button">Compose</button>
+    </div>
+
+    <div id="nav_bar">
+      <nav>
+        <a>Inbox (1)</a>
+        <br>
+        <a>Tagged</a>
+        <br>
+        <a>Important</a>
+        <br>
+        <a>Sent Mail</a>
+        <br>
+        <a>Drafts</a>
+        <br>
+        <a>Trash</a>
+      </nav>
+    </div>
+
+  </section>
+  
+
+<!-- SEARCH SECTION -->
+  <section id="search_section" class="column2">
+
+    <div id="search_container">
+      <label for="search_bar">
+        <input type="text" placeholder="Search For Emails" name="search_bar" id="search_bar">
+      </label>
+    </div>
+
+    <!-- EXAMPLE EMAILS -->
+    <div class="ex_email_1">
+      <p>LinkedIn<span>02:45 PM</span></p>
+      <p>You have a new connection Request</p>
+    </div>
+
+    <div id="selected">
+      <div class="ex_email_2">
+        <p>Michael Scott Daily Quote <span>Jul 3, 2020</span></p>
+        <p>I'm optimistic because everyday I get a...</p>
+      </div>
+    </div>
+
+    <div class="ex_email_3">
+      <p>Lamar Software<span>Feb 9, 2020</span></p>
+      <p>Learn how you can give us money by...</p>
+    </div>
+
+  </section>
+
+<!-- MAIN VIEW (EMAIL) SECTION -->
+  <section id="main_view" class="column3">
+
+    <div id="example_email_expanded">
+      <p>To: taylor@lamarsoftware.io</p>
+      <p>From: re-reply@theofficenbc.com</p>
+
+      <h1>Michael Scott Daily Quotes</h1>
+
+      <p>"Friends joke with one another. 'Hey, your momma's dead.' That's what friends do."</p>
+
+      <p>"It's a good thing Russia doesn't exist anymore."</p>
+  
+      <p>"You cheated on me? When I specifically asked you not to?"</p>
+  
+      <p>"It just seems awfully mean. But sometimes, the ends justify the mean"</p>
+  
+      <p>"Reverse psychology is an awesome tool. I don't know if you guys know about it, but basically, you make someone think the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm"</p>
+    </div>
+
+    <div>
+      <label for="enter_message">
+        <textarea placeholder="Enter Message..." name="enter_message" id="message_box"></textarea>
+      </label>
+   </div>
+
+   <div id="send_email_container">
+    <button id="send_button">Send Email</button>
+   </div>
+
+
+  </section>
+
+</body>
+</html>
